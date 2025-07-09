@@ -9,7 +9,8 @@ private _versionName = ["DCO Squad FSM | ", SQFSM_Version] joinString "";
 	"CHECKBOX",
 	["Debug Mode", "Show debug messages and 3D indicators ingame."],
 	_versionName,
-	false
+	false,
+	0
 ] call CBA_fnc_addSetting;
 
 [
